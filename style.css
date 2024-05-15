@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+:root{
+    --fonte-principal: "Sedan SC", serif;
+    --cor-principal: #FFEFA0;
+    --cor-background: #AC4B1C;
+}
+
+body{
+    background-color: var(--cor-background);
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 3.5em;
+    margin: 0.5em;
+}
+
+.subtitulo{
+    font-size: 2em;
+    margin: 0.2em;
+}
+
+.mensagem{
+    font-size: 1.25em;
+    margin: 0.5em;
+}
+
+.box{
+    font-size: 2em;
+    border: 2px solid var(--cor-principal);
+    display: inline-block;
+    padding: 0em 0.2em 0.2em 0.2em;
+    margin: 0.2em;
+}
+
+.jogar-novamente-btn{
+    font-family: var(--fonte-principal);
+}
