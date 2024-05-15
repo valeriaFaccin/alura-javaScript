@@ -20,6 +20,11 @@ body{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
 .titulo{
     font-size: 3em;
 }
