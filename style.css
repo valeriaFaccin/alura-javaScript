@@ -43,4 +43,10 @@ body{
 
 .jogar-novamente-btn{
     font-family: var(--fonte-principal);
+    font-size: 1.25em;
+    border: 2px solid var(--cor-principal);
+    color: var(--cor-principal);
+    background: transparent;
+    padding: 0.5em;
+    margin: 0.5em;
 }

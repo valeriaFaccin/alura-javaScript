@@ -17,11 +17,11 @@ function verificaValorValidoChute (chute){
 
     if(numero === numeroAleatorio){
         document.body.innerHTML = `
-            <h2>Você acertou!</h2>
-            <h3>O número secreto era ${numeroAleatorio}</h3>
+            <h2 class="titulo">Você acertou!</h2>
+            <h3 class="subtitulo">O número secreto era ${numeroAleatorio}</h3>
             <button id="jogar-novamente" class="jogar-novamente-btn">Jogar Novamente</button>
         `;
-    } else if (numero < numeroAleatorio) {
+    } else if (numero > numeroAleatorio) {
         elementoChute.innerHTML += `
             <div>O número secreto é menor <i class="fa-solid fa-arrow-down-long"></i></div>
         `
@@ -38,7 +38,7 @@ function chuteForInvalido(numero) {
 }
 
 function numeroValorMaiorMenorRange(numero) {
-    return  numero > maiorValor || numero < menorValor;
+    return numero > maiorValor || numero < menorValor;
 }
 
 document.body.addEventListener('click', e => {

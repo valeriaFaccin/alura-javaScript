@@ -1,27 +1,21 @@
 console.log("Olá visitante do inspecionar!");
 
-const nomes = ['Kaladin', 'Shallan', 'Adolin', 'Talenel', 'Jasnah', 'Stick', 'Lift', 'Wit', 'Dalinar', 'Renarin', 'Amaram', 'Elhokar', 'Navani', 'Darkness', 'Jezrien', 'Teft', 'Rock', 'Moash', 'Siberial', 'Sadeas'];
+const nomes = ['Lygia Fagundes Telles', 'Fiódor Dostoiévski', 'Maria José Dupré', 'Clarice Lispector', 'Graciliano Ramos', 'Machado de Assis', 'Liev Tolstoi', 'Ray Bradbury', 'Erico Verissimo', 'Robert Stevenson', 'Rachel de Queiroz'];
+
+const livro = ['Ciranda de Pedra', 'Noites Brancas', 'Éramos Seis', 'Hora da Estrela', 'Vidas Secas', 'Memórias Póstumas de Brás Cubas', 'Ana Karenina', 'Fahrenheit 451', 'Ana Terra', 'O médico e o monstro', 'O Quinze'];
+
 const nomesDica = [
-    'I will protect those I hate, as long as it is right', 
-    'Words are where most change begins', 
-    'I might have told this Chasmfiend story a hundred times already', 
-    'Might have gone mad because his friends abandoned his to eternal torture', 
-    'I will explain and teach you everything you need with time -> proceds to die',
-    'I am a stick',
-    'I will remember those who have been forgotten',
-    'You lost my flute?',
-    'Source: I saw it in a dream',
-    'Glasses and uselessness (could have told us sonner you were a knight radiant!)',
-    'I got this Shardblade and ShardPlate fair and square in battlefield - catch the lie',
-    'Needs to ask his servants if he is a good King - what do you think that tells you?',
-    'Suspecially not so sad her husband died',
-    'The lil bitch who abandoned human kind and is stupidtly working against it',
-    'The leader of the lil bitches, who probably gave the idea of abandoning one of their own, and also the final word',
-    'He believes in Kaladin (some of this gotta be hard, sorry not sorry kkk)',
-    'He cooks, he sings, he is everything you wanna be',
-    'The new generation lil bitch',
-    'Nicer than he looks, and one of the best BrightLords there are',
-    'The worst, thank god you died, lets all take a moment to apreciate Adolin'
+    'Pois é preciso amar o inútil porque no inútil está a Beleza. No inútil também está Deus.',
+    'Há quem diga que ainda terei muito tempo para dormir depois da morte, mas quem disse que não estou vivendo enquanto sonho?',
+    'Ele não me pertencia mais, pertencia ao mundo que o reclamava',
+    'Que se há de fazer com a verdade de que todo mundo é um pouco triste e um pouco só',
+    'Tinha o coração grosso, queria responsabilizar alguém pela sua desgraça',
+    'Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria',
+    'Todas as famílias felizes se parecem, cada família infeliz é infeliz a sua maneira',
+    'Talvez os livros possam nos tirar um pouco dessas trevas. Ao menos poderiam nos impedir de cometer os mesmo malditos erros malucos',
+    'Sempre que me acontece alguma coisa importante, está ventando',
+    'Essa breve condescendência com a maldade acabou destruindo o equilíbrio da minha alma',
+    'E se não fosse uma raiz de mucunã arrancada aqui e além, ou alguma batata-branca que a seca ensina a comer, teriam ficado todos pelo caminho'
 ];
 const nomeSorteado = sortearNome();
 
@@ -45,7 +39,7 @@ enviarPalpiteBtn.onclick = function () {
     if(nomePalpite.value == nomes[nomeSorteado]){
         document.body.innerHTML = `
             <h1 class="titulo">Você acertou!</h1>
-            <h3>O personagem era ${nomes[nomeSorteado]}</h3>
+            <h3>O autor era ${nomes[nomeSorteado]}, frase do livro ${livro}</h3>
             <button id="jogar-novamente" class="mensagem__button" type="submit">Jogar Novamente</button>
         `;
     } else {
