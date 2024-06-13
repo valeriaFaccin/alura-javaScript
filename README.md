@@ -1,4 +1,4 @@
-# alura-numero-secreto
+# alura-javaScript
 
 ## Descrição
 
