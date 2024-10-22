@@ -21,3 +21,5 @@ Cada pasta contém um projeto desenvolvido durante a formação, para executá-l
 - **projeto-fokus:** Um projeto da certifiação "JavaScript: explorando a manipulação de elementos e da localStorage", com o objetivo de manipular elementos do HTML, utilizando conhecimentos básicos em DOM para construir um sistema básico de CRUD e utilizar localStorage.
 
 - **monibank:** Um projeto realizado durante a certificação "JavaScript: validando formulários", com o objetivo de implementar as funcionalidades de uma página de cadastro em um banco fictício, e assim validar as entradas do formulário, utilizando conhecimentos em JavaScript e manipulação do DOM.
+
+- **POO:** Um simples projeto com algumas classes para aplicação de conceitos de orientação à objetos em JavaScript.
