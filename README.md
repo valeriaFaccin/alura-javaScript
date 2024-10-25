@@ -23,3 +23,5 @@ Cada pasta contém um projeto desenvolvido durante a formação, para executá-l
 - **monibank:** Um projeto realizado durante a certificação "JavaScript: validando formulários", com o objetivo de implementar as funcionalidades de uma página de cadastro em um banco fictício, e assim validar as entradas do formulário, utilizando conhecimentos em JavaScript e manipulação do DOM.
 
 - **POO:** Um simples projeto com algumas classes para aplicação de conceitos de orientação à objetos em JavaScript.
+
+- **devs&dragons:** Um pequeno jogo de duelo entre personagens para aplicação de conceitos de orientação a objetos em JavaScript.
