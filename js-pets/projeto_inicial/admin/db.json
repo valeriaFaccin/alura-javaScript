@@ -1,0 +1,24 @@
+{
+  "profile": [
+    {
+      "name": "Ada Lovelace",
+      "email": "ada.lovelace@example.com",
+      "id": 1
+    },
+    {
+      "name": "Alan Turing",
+      "email": "alan.turing@example.com",
+      "id": 2
+    },
+    {
+      "name": "Edgar Codd",
+      "email": "edgar.codd@example.com",
+      "id": 3
+    },
+    {
+      "name": {},
+      "email": {},
+      "id": 4
+    }
+  ]
+}
